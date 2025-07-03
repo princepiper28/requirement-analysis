@@ -87,3 +87,41 @@ Below is a simple use case diagram for a **Property Booking System**, showing th
 - Manage Listings
 - Review Property
 - Approve/Remove Users
+
+📌 What is Acceptance Criteria?
+Acceptance Criteria are the conditions that a software product must satisfy to be accepted by the end user, customer, or stakeholders. They define the boundaries of a user story or feature and provide clear guidelines on what needs to be implemented for a requirement to be considered “done.”
+
+In Requirement Analysis, acceptance criteria serve as a critical bridge between requirements and testing. They ensure:
+
+The development team understands exactly what to build.
+
+The QA team knows what to test and validate.
+
+Stakeholders can verify that the delivered functionality meets expectations.
+
+🎯 Why is Acceptance Criteria Important?
+✅ Removes ambiguity: Clearly defines what is expected of a feature.
+
+🧪 Improves testability: Helps create precise test cases to validate features.
+
+🔁 Facilitates communication: Aligns developers, designers, testers, and stakeholders.
+
+📦 Defines "Done": Provides a measurable standard to know when a task or story is complete.
+
+💼 Example: Acceptance Criteria for a "Checkout" Feature in a Booking System
+User Story:
+As a guest, I want to be able to check out of a booked property so that I can complete my stay and leave feedback.
+
+Acceptance Criteria:
+
+✅ The system must display a “Checkout” button for all active bookings.
+
+✅ Upon clicking the button, a confirmation modal should appear.
+
+✅ Once confirmed, the booking status must change to “Checked Out.”
+
+✅ The guest must receive a confirmation email within 5 minutes.
+
+✅ A prompt to leave a review should be shown after successful checkout.
+
+✅ By clearly defining what success looks like for each feature, acceptance criteria reduce miscommunication and ensure high-quality outcomes.
