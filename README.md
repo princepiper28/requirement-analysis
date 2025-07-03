@@ -44,3 +44,46 @@ Functional Requirements: What the system should do (e.g., user registration, dat
 Non-Functional Requirements: How the system should perform (e.g., performance, security, usability).
 
 ✅ This phase is essential to building software that works — not just technically, but also from a user and business perspective.
+
+## 🗂️ Use Case Diagrams
+
+### 📌 What are Use Case Diagrams?
+
+Use Case Diagrams are a type of UML (Unified Modeling Language) diagram used in **Requirement Analysis** to visually represent the interactions between users (**actors**) and the system (**use cases**). They provide a high-level overview of how different users interact with the functionalities of a system.
+
+---
+
+### ✅ **Benefits of Use Case Diagrams**
+
+- Clarify system functionality from the user’s perspective  
+- Help identify system boundaries and external actors  
+- Improve communication between stakeholders and developers  
+- Serve as a reference during design and testing phases
+
+---
+
+### 💼 Use Case Diagram: Booking System
+
+Below is a simple use case diagram for a **Property Booking System**, showing the interactions between users and the system's core features.
+
+![Booking System Use Case Diagram](alx-booking-uc.png)
+
+---
+
+### 🧍‍ Actors:
+- **Guest**: Can register, log in, search for properties, book a property, and leave reviews.  
+- **Host**: Can log in, list properties, manage bookings, and respond to reviews.  
+- **Admin**: Manages user accounts and oversees system operations.
+
+---
+
+### 🔄 Use Cases:
+- Register
+- Login
+- Search Properties
+- View Property Details
+- Book Property
+- List Property
+- Manage Listings
+- Review Property
+- Approve/Remove Users
